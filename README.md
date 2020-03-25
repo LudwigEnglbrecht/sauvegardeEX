@@ -32,7 +32,7 @@ Run the cdp client on every client machine with
 sudo cdpfglclient -c /path/to/config/file
 ```
 
-# Installation 2/3 - cdp-forensic-webserver
+# Installation 2/3 - cdp-forensic-webserver (on cdpfgl Server)
 
 The Webserver for using special functionalities needs to be installed at the same machine running the cdpfgl Server.
 
@@ -41,7 +41,7 @@ If you did not use the default cdp server config, ensure that the value of cdpSe
 
 Use the [cdp-forensic-frontend](https://github.com/danieltrtwn/cdp-forensic-frontend) as GUI to use the cdp-forensic-webserver services.
 
-# Installation 3/3 - cdp-forensic-frontend (on any possible machine)
+# Installation 3/3 - cdp-forensic-frontend (any machine)
 
 To install the easy to use Web Interface (cdp-forensic-frontend) follow the following steps:
 
@@ -75,7 +75,7 @@ If you click on a file you can see all the occurred versions of a file with a ti
 By clicking the restore icon, you can restore all file occurrences in a directory within the time range, which is at the moment selected by the time slider.
 By clicking the entropy icon, you can calculate an entropy of all files from a directory.
  
-![](images/screenshot.png?raw=true)
+![](https://github.com/danieltrtwn/cdp-forensic-frontend/raw/master/images/screenshot.png)
 
 
 # Use cases of sauvegardeEx
