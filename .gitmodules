@@ -1,3 +1,6 @@
 [submodule "cdp-forensic-webserver"]
 	path = cdp-forensic-webserver
 	url = https://github.com/meinlschmidt/cdp-forensic-webserver/
+[submodule "cdp-forensic-frontend"]
+	path = cdp-forensic-frontend
+	url = https://github.com/danieltrtwn/cdp-forensic-frontend/
