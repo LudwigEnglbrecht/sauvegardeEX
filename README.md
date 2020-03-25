@@ -8,7 +8,7 @@ To make the core functionality of the software [sauvegarde](https://github.com/d
 
 The architecture consists of all the clients, from which you want to obtain data, the cdp-forensic-webserver and the [cdp-forensic-frontend](https://github.com/danieltrtwn/cdp-forensic-frontend), which provides the GUI. Every linux client is running a cdpfgl client which sends the data, whenever a file changes, to the cdpfgl server, which is running on the same linux machine as the cdp-forensic-webserver.
 
-![](https://github.com/meinlschmidt/cdp-forensic-webserver/tree/dabb7ede899235f7db47df657aa3562ccae37f72/architecture.png?raw=true)
+![](https://github.com/meinlschmidt/cdp-forensic-webserver/raw/dabb7ede899235f7db47df657aa3562ccae37f72/architecture.png)
 
 # Installation
 
