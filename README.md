@@ -22,4 +22,4 @@ TODO
 
 # About the project
 
-This project deals with the purpose-specific extension of the software [sauvegarde](https://github.com/dupgit/sauvegarde) and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr.) under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht) for educational and academic use. 
+This project deals with the purpose-specific extension of the software [sauvegarde](https://github.com/dupgit/sauvegarde) and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr. Günther Pernul) under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht) for educational and academic use. 
