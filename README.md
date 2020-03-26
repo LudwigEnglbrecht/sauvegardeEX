@@ -1,20 +1,26 @@
 # sauvegardeEX
 
 The sauvegardeEX system combines various extensions of the software [sauvegarde](https://github.com/dupgit/sauvegarde)
-to enable an improved usability, as well as a broader application in related areas (eg.: Digital Forensics and Digital Twin Mirroring). 
+to enable an improved usability, as well as a broader application in related areas (eg.: Digital Forensics and Digital Twin Mirroring). The "EX" in sauvegardeEX refers to "EXtension".
+
 
 ## Architecture
 
 To make the core functionality of the software sauvegarde, continuous data protection, usable for further applications,
 the existing client/server architectur was extended by a web server and a frontend for an intuitive usage.
-In addition, in the web server area, a modular expandable area was created.
+In addition, in the web server, a modular expandable area was created.
 
-The architecture consists of all the clients, from which you want to obtain data, the [cdp-forensic-webserver](https://github.com/meinlschmidt/cdp-forensic-webserver)
+The architecture consists of a modified version of [sauvegarde](https://github.com/meinlschmidt/sauvegarde), the clients (from which you want to obtain data) the [cdp-forensic-webserver](https://github.com/meinlschmidt/cdp-forensic-webserver)
 and the [cdp-forensic-frontend](https://github.com/danieltrtwn/cdp-forensic-frontend), which provides the GUI.
-Every linux client is running a cdpfglclient which sends the data, whenever a file changes, to the cdpfglserver,
+Every linux client is running a cdpfglclient which sends the data to the cdpfglserver, whenever a file changes,
 which is running on the same linux machine as the cdp-forensic-webserver.
 
+It is important to mention that in this version the focus is not on the recovery of data on the client, but on the further processing of the file states on a server. For this purpose, a client version was also installed on the computer where the server is running next to the newly developed web server. The following graphic shows the new architecture. 
+
 ![](https://github.com/meinlschmidt/cdp-forensic-webserver/raw/dabb7ede899235f7db47df657aa3562ccae37f72/architecture.png)
+
+
+
 
 # Installation 1/3 - The modified version of cdpfglserver
 
