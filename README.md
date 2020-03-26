@@ -1,13 +1,13 @@
 # sauvegardeEX
 
 The sauvegardeEX system combines various extensions of the software [sauvegarde](https://github.com/dupgit/sauvegarde)
-to enable an improved usability, as well as a broader application in related areas (eg.: Digital Forensics and Digital Twin Mirroring). The "EX" in sauvegardeEX refers to "EXtension".
+to enable improved usability, as well as a broader application in related areas (eg.: Digital Forensics and Digital Twin Mirroring). The "EX" in sauvegardeEX refers to "EXtension".
 
 
 ## Architecture
 
 To make the core functionality of the software sauvegarde, continuous data protection, usable for further applications,
-the existing client/server architectur was extended by a web server and a frontend for an intuitive usage.
+the existing client/server architecture was extended by a web server and a frontend for an intuitive usage.
 In addition, in the web server, a modular expandable area was created.
 
 The architecture consists of a modified version of [sauvegarde](https://github.com/meinlschmidt/sauvegarde), the clients (from which you want to obtain data) the [cdp-forensic-webserver](https://github.com/meinlschmidt/cdp-forensic-webserver)
