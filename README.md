@@ -103,9 +103,9 @@ By clicking the entropy icon, you can calculate an entropy of all files from a d
 - Philipp Meinlschmidt
 - Daniel Trautwein
 
-Feel free to contact us or [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht) ludwig.englbrecht@wiwi.uni-regensburg.de for improvements or questions.
+Feel free to contact us or Mr. Ludwig Englbrecht via ludwig.englbrecht@wiwi.uni-regensburg.de for improvements or questions.
 
 # About the project
 
 This project deals with purpose-specific extensions of the software [sauvegarde](https://github.com/dupgit/sauvegarde)
-and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr. Günther Pernul) under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht). The software is intended for educational and academic use. 
+and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr. Günther Pernul) under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht) during his Ph.D. Research Project. The software is intended for educational and academic use. 
