@@ -1,7 +1,7 @@
 # sauvegardeEX
 
 The sauvegardeEX system combines various extensions of the software [sauvegarde](https://github.com/dupgit/sauvegarde)
-to enable an improved usability, as well as a broader application. 
+to enable an improved usability, as well as a broader application in related areas (eg.: Digital Forensics and Digital Twin Mirroring). 
 
 ## Architecture
 
@@ -90,6 +90,7 @@ By clicking the entropy icon, you can calculate an entropy of all files from a d
 
 - Digital Forensics Fingerprinting
 - Digital Twin Mirroring
+- Teaching in Higher Education
 
 # Authors
 
@@ -100,6 +101,5 @@ Feel free to contact us or [Mr. Ludwig Englbrecht](https://www.researchgate.net/
 
 # About the project
 
-This project deals with the purpose-specific extension of the software [sauvegarde](https://github.com/dupgit/sauvegarde)
-and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr. Günther Pernul)
-under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht) for educational and academic use. 
+This project deals with purpose-specific extensions of the software [sauvegarde](https://github.com/dupgit/sauvegarde)
+and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr. Günther Pernul) under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht). The software is intended for educational and academic use. 
