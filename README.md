@@ -15,7 +15,7 @@ and the [cdp-forensic-frontend](https://github.com/danieltrtwn/cdp-forensic-fron
 Every linux client is running a cdpfglclient which sends the data to the cdpfglserver, whenever a file changes,
 which is running on the same linux machine as the cdp-forensic-webserver.
 
-It is important to mention that in this version the focus is not on the recovery of data on the client, but on the further processing of the file states on a server. For this purpose, a client version was also installed on the computer where the server is running next to the newly developed web server. The following graphic shows the new architecture. 
+It is important to mention that in this version the focus is not on the recovery of data on the client, but on the further processing of the file states on a server. For this purpose, a client version ("CDP Restore-Client") was also installed on the computer where the server is running next to the newly developed web server. The following graphic shows the new architecture. 
 
 ![](https://github.com/meinlschmidt/cdp-forensic-webserver/raw/dabb7ede899235f7db47df657aa3562ccae37f72/architecture.png)
 
