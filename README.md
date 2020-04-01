@@ -112,4 +112,4 @@ Feel free to contact us or Mr. Ludwig Englbrecht via ludwig.englbrecht@wiwi.uni-
 # About the project
 
 This project deals with purpose-specific extensions of the software [sauvegarde](https://github.com/dupgit/sauvegarde)
-and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr. Günther Pernul) under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht) during his Ph.D. Research Project. The software is intended for educational and academic use. 
+and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr. Günther Pernul) [(website)](https://www.uni-regensburg.de/wirtschaftswissenschaften/wi-pernul/) under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht) during his Ph.D. Research Project. The software is intended for educational and academic use. 
