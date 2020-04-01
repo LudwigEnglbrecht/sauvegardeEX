@@ -51,7 +51,11 @@ The Webserver for using special functionalities needs to run at the same machine
 Install Java JDK 8 or higher.
 
 Check out the [cdp-forensic-webserver](https://github.com/meinlschmidt/cdp-forensic-webserver) repository files on the server machine,
-e.g. with IntelliJ, and run the cdp-forensic-webserver.
+e.g. with IntelliJ.
+
+Update the variable "commandexternalcall" in /src/main/java/pseminar/cdp/webserver/Entropies.java to the external python script from [https://github.com/LudwigEnglbrecht/entropie](https://github.com/LudwigEnglbrecht/entropie).
+
+After the successful build of the java project you can run the cdp-forensic-webserver.
 
 If you did not use the default cdpfglserver config, ensure that the value of cdpServerMetaDirectory in class WebserverApplication extends the file-directory path from your cdpfglserver config by /meta.
 
