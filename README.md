@@ -98,7 +98,7 @@ By clicking the entropy icon, you can calculate an entropy of all files from a d
 
 # Use cases of sauvegardeEX
 
-- Digital Forensics Fingerprinting
+- Digital Forensics Analysis 
 - Digital Twin Mirroring
 - Teaching in Higher Education
 
