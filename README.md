@@ -1,21 +1,21 @@
 # sauvegardeEX
 
 The sauvegardeEX system combines various extensions of the software [sauvegarde](https://github.com/dupgit/sauvegarde)
-to enable improved usability, as well as a broader application in related areas (eg.: Digital Forensics and Digital Twin Mirroring). The "EX" in sauvegardeEX refers to "EXtension".
+to enable an improved usability, as well as a broader application in related areas (e.g.: Digital Forensics Analysis and Digital Twin Mirroring). The "EX" in sauvegardeEX refers to "EXtension".
 
 
 ## Architecture
 
 To make the core functionality of the software sauvegarde, continuous data protection, usable for further applications,
-the existing client/server architecture was extended by a web server and a frontend for an intuitive usage.
+the existing client/server architecture was extended by a feature-rich web server and a frontend for an intuitive usage.
 In addition, in the web server, a modular expandable area was created.
 
 The architecture consists of a modified version of [sauvegarde](https://github.com/meinlschmidt/sauvegarde), the clients (from which you want to obtain data) the [cdp-forensic-webserver](https://github.com/meinlschmidt/cdp-forensic-webserver)
 and the [cdp-forensic-frontend](https://github.com/danieltrtwn/cdp-forensic-frontend), which provides the GUI.
-Every linux client is running a cdpfglclient which sends the data to the cdpfglserver, whenever a file changes,
-which is running on the same linux machine as the cdp-forensic-webserver.
+Every linux client is running a cdpfglclient which sends the data to the cdpfglserver, whenever a file changes. The server component 
+cdpfglserver runs next to the cdp-forensic-webserver.
 
-It is important to mention that in this version the focus is not on the recovery of data on the client, but on the further processing of the file states on a server. For this purpose, a client version ("CDP Restore-Client") was also installed on the computer where the server is running next to the newly developed web server. The following graphic shows the new architecture. 
+It is important to mention that in this version the focus is not on the recovery of data on the client, but on **the further processing of the file states on a server**. For this purpose, the client component ("CDP Restore-Client") was also installed on the computer where the  the newly developed web server is running. The following graphic illustrates the new architecture. 
 
 ![](https://github.com/meinlschmidt/cdp-forensic-webserver/raw/dabb7ede899235f7db47df657aa3562ccae37f72/architecture.png)
 
@@ -112,4 +112,4 @@ Feel free to contact us or Mr. Ludwig Englbrecht via ludwig.englbrecht@wiwi.uni-
 # About the project
 
 This project deals with purpose-specific extensions of the software [sauvegarde](https://github.com/dupgit/sauvegarde)
-and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr. Günther Pernul) [(website)](https://www.uni-regensburg.de/wirtschaftswissenschaften/wi-pernul/) under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht) during his Ph.D. Research Project. The software is intended for educational and academic use. 
+and was developed as part of a master student seminar at the University of Regensburg, Chair of Information Systems (Prof. Dr. Günther Pernul), [(https://www.uni-regensburg.de/wirtschaftswissenschaften/wi-pernul/)](https://www.uni-regensburg.de/wirtschaftswissenschaften/wi-pernul/) under the supervision of [Mr. Ludwig Englbrecht](https://www.researchgate.net/profile/Ludwig_Englbrecht) during his Ph.D. Research Project. The software is intended for educational and academic use. 
