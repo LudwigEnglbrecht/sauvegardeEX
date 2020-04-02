@@ -8,14 +8,14 @@ to enable an improved usability, as well as a broader application in related are
 
 To make the core functionality of the software sauvegarde, continuous data protection, usable for further applications,
 the existing client/server architecture was extended by a feature-rich web server and a frontend for an intuitive usage.
-In addition, in the web server, a modular expandable area was created.
+In addition, within the web server, a modular expandable area was created.
 
-The architecture consists of a modified version of [sauvegarde](https://github.com/meinlschmidt/sauvegarde), the clients (from which you want to obtain data) the [cdp-forensic-webserver](https://github.com/meinlschmidt/cdp-forensic-webserver)
-and the [cdp-forensic-frontend](https://github.com/danieltrtwn/cdp-forensic-frontend), which provides the GUI.
-Every linux client is running a cdpfglclient which sends the data to the cdpfglserver, whenever a file changes. The server component 
+The architecture consists of a modified version of [sauvegarde](https://github.com/meinlschmidt/sauvegarde), the clients (from which you want to obtain data), the [cdp-forensic-webserver](https://github.com/meinlschmidt/cdp-forensic-webserver)
+and the [cdp-forensic-frontend](https://github.com/danieltrtwn/cdp-forensic-frontend).
+Every linux client is running the cdpfglclient which sends the data to the cdpfglserver, whenever a file changes. The server component 
 cdpfglserver runs next to the cdp-forensic-webserver.
 
-It is important to mention that in this version the focus is not on the recovery of data on the client, but on **the further processing of the file states on a server**. For this purpose, the client component ("CDP Restore-Client") was also installed on the computer where the newly developed web server is running. The following graphic illustrates the new architecture. 
+It is important to mention that in this version the focus is not on the recovery of data on the client, but on **the further processing of the file states on a server**. For this purpose, the client component ("CDP Restore-Client") was also installed on the computer where the newly developed web-server is running. The following graphic illustrates the new architecture. 
 
 ![](https://github.com/meinlschmidt/cdp-forensic-webserver/raw/dabb7ede899235f7db47df657aa3562ccae37f72/architecture.png)
 
