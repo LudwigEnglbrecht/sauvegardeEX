@@ -102,6 +102,12 @@ By clicking the entropy icon, you can calculate an entropy of all files from a d
 - Digital Twin Mirroring
 - Teaching in Higher Education
 
+# Roadmap of SauvegardeEX
+
+* (Web-Server and GUI) Implementing a visual file transformation flow
+* (Server) Better implementation of the entropy calculation
+* Capability to backup entire hard disk images (e.g.: *.vmdk)
+
 # Authors
 
 - Philipp Meinlschmidt
