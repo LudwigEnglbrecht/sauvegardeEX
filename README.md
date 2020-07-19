@@ -112,6 +112,7 @@ By clicking the entropy icon, you can calculate an entropy of all files from a d
 
 - Philipp Meinlschmidt
 - Daniel Trautwein
+- Ludwig Englbrecht
 
 Feel free to contact us or Mr. Ludwig Englbrecht via ludwig.englbrecht@wiwi.uni-regensburg.de for improvements or questions.
 
